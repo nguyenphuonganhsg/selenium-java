@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3b30ead-60aa-4447-983d-14dc85cf9f6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/modules/Hyperlink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modules/Hyperlink.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1pNBmFpHVNBwHndYMHgB2IbkBv5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="modules" />
+      <recent name="pages" />
+      <recent name="modules.BMICaculator" />
+      <recent name="modules.JavascriptAlert" />
+      <recent name="browsers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/AUTOMATION/PROJECT/sampleTestPlan.xml">
+    <configuration name="BMICaculatorWay3.calculator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.BMICaculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules.BMICaculator" />
+      <option name="MAIN_CLASS_NAME" value="modules.BMICaculator.BMICaculatorWay3" />
+      <option name="METHOD_NAME" value="calculator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckboxTest.validateCheckboxIsChecked" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.CheckboxTest" />
+      <option name="METHOD_NAME" value="validateCheckboxIsChecked" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/AUTOMATION/PROJECT/sampleTestPlan.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PROJECT" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/sampleTestPlan.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestModel.check (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.LoginTestModel" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestModel.check" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.LoginTestModel" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/AUTOMATION/PROJECT/sampleTestPlan.xml" />
+        <item itemvalue="TestNG.LoginTestModel.check" />
+        <item itemvalue="TestNG.CheckboxTest.validateCheckboxIsChecked" />
+        <item itemvalue="TestNG.LoginTestModel.check (1)" />
+        <item itemvalue="TestNG.BMICaculatorWay3.calculator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3b30ead-60aa-4447-983d-14dc85cf9f6c" name="Default Changelist" comment="" />
+      <created>1615013827319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615013827319</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

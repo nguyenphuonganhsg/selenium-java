@@ -1,0 +1,29 @@
+<suite name="demo">
+<!--    <test name="testNg">-->
+<!--        <classes>-->
+<!--            <class name="modules.TestNgExample" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="testNg-1">-->
+<!--        <classes>-->
+<!--            <class name="modules.TestNgExample1" />-->
+<!--            <class name="modules.TestNgExample2" />-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="testNg-1">
+        <packages>
+            <package name="modules" />
+<!--            chay hết test-->
+        </packages>
+    </test>
+        <test name="testNg">
+            <classes>
+                <class name="modules.TestNgExample" >
+                    <methods>
+                        <include name="testcase1" />
+                        <include name="testcase3" />
+                    </methods>
+                </class>
+            </classes>
+        </test>
+</suite>
