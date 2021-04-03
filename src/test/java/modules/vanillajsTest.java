@@ -35,11 +35,11 @@ public class vanillajsTest extends BaseTest{
 
         jsPage.createToto(textInput);
 
-     //   int itemLeftBefore = jsPage.countListToto();
+        int itemLeftBefore = jsPage.countListToto();
         jsPage.removeToto(textInput);
 
-       // int itemLeftAfter = jsPage.countListToto();
-      //  Assert.assertEquals(itemLeftAfter - itemLeftBefore, -1);
+        int itemLeftAfter = jsPage.countListToto();
+        Assert.assertEquals(itemLeftAfter - itemLeftBefore, -1);
     }
 
     @Test

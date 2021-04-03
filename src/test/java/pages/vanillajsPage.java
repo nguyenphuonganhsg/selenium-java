@@ -95,13 +95,13 @@ public class vanillajsPage extends BasePage{
     }
 
     public void removeToto(String todoItem){
-      //  By removeItem = By.xpath(String.format("//label[.='%s']/following-sibling::button", todoItem));
-        By removeItem = By.xpath(String.format("//label[.='%s']", todoItem));
+        By removeItem = By.xpath(String.format("//label[.='%s']/following-sibling::button", todoItem));
+        By labelItem = By.xpath(String.format("//label[.='%s']", todoItem));
 
-        WebElement deleteElement = driver.findElement(removeItem);
-        System.out.println(deleteElement);
+        WebElement deleteElement = driver.findElement(labelItem);
+
         actions.moveToElement(deleteElement).perform();
-        deleteElement.click();
+        driver.findElement(removeItem).click();
     }
 
     public void completeToto(String todoItem){
