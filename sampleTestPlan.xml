@@ -10,20 +10,30 @@
 <!--            <class name="modules.TestNgExample2" />-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="testNg-1">
-        <packages>
-            <package name="modules" />
-<!--            chay hết test-->
-        </packages>
+<!--    <test name="testNg-1">-->
+<!--        <packages>-->
+<!--            <package name="modules" />-->
+<!--&lt;!&ndash;            chay hết test&ndash;&gt;-->
+<!--        </packages>-->
+<!--    </test>-->
+<!--        <test name="testNg">-->
+<!--            <classes>-->
+<!--                <class name="modules.TestNgExample" >-->
+<!--                    <methods>-->
+<!--                        <include name="testcase1" />-->
+<!--                        <include name="testcase3" />-->
+<!--                    </methods>-->
+<!--                </class>-->
+<!--            </classes>-->
+<!--        </test>-->
+    <test name="testNg">
+        <classes>
+            <class name="modules.vanillajsTest">
+                <methods>
+                   <include name="validateCreateTodo" />
+                   <include name="validateCompleteTodo" />
+               </methods>
+           </class>
+        </classes>
     </test>
-        <test name="testNg">
-            <classes>
-                <class name="modules.TestNgExample" >
-                    <methods>
-                        <include name="testcase1" />
-                        <include name="testcase3" />
-                    </methods>
-                </class>
-            </classes>
-        </test>
 </suite>
