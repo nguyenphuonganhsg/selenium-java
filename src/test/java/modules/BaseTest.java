@@ -16,6 +16,9 @@ public class BaseTest {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setHeadless(true);
         driver =  new ChromeDriver(chromeOptions);
+
+//        WebDriverManager.chromedriver().setup();
+//        WebDriver driver = new ChromeDriver();
     }
 
     @AfterMethod

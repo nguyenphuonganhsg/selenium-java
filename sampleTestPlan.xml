@@ -31,7 +31,7 @@
             <class name="modules.vanillajsTest">
                 <methods>
                    <include name="validateCreateTodo" />
-                   <include name="validateDeleteTodo" />
+<!--                   <include name="validateDeleteTodo" />-->
                    <include name="validateCompleteTodo" />
                </methods>
            </class>

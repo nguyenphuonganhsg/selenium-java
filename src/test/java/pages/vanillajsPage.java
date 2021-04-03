@@ -83,25 +83,19 @@ public class vanillajsPage extends BasePage{
    //     System.out.println(editValue);
     }
 
-    public void deleteToto(){
-        WebElement deleteElement = driver.findElement(label1);
-
+    public void deleteToto(String todoItem){
+        WebElement deleteElement = driver.findElement(getToto(todoItem));
         actions.moveToElement(deleteElement).perform();
-        driver.findElement(deleteBtn).click();
+        driver.findElement(removeToto(todoItem)).click();
     }
 
     public By getToto(String todoItem){
         return By.xpath(String.format("label[.='%s']", todoItem));
     }
 
-    public void removeToto(String todoItem){
-        By removeItem = By.xpath(String.format("//label[.='%s']/following-sibling::button", todoItem));
-        By labelItem = By.xpath(String.format("//label[.='%s']", todoItem));
+    public By removeToto(String todoItem){
+        return By.xpath(String.format("//label[.='%s']/following-sibling::button", todoItem));
 
-        WebElement deleteElement = driver.findElement(labelItem);
-
-        actions.moveToElement(deleteElement).perform();
-        driver.findElement(removeItem).click();
     }
 
     public void completeToto(String todoItem){

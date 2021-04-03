@@ -36,7 +36,7 @@ public class vanillajsTest extends BaseTest{
         jsPage.createToto(textInput);
 
         int itemLeftBefore = jsPage.countListToto();
-        jsPage.removeToto(textInput);
+        jsPage.deleteToto(textInput);
 
         int itemLeftAfter = jsPage.countListToto();
         Assert.assertEquals(itemLeftAfter - itemLeftBefore, -1);
